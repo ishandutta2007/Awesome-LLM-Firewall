@@ -76,7 +76,7 @@ An **LLM Firewall** (or **AI Guardrail**) operates as an inline reverse proxy or
 
 *The open-source ecosystem provides transparent, programmable, self-hostable, and air-gapped protection for LLM applications. Sorted strictly in descending order by GitHub Star count.*
 
-| Repository & Tool | Stars | Category & Architecture | Key Strengths & Guardrail Features |
+| Repository & Tool | Github_Stars | Category & Architecture | Key Strengths & Guardrail Features |
 | :--- | :--- | :--- | :--- |
 | **[LiteLLM](https://github.com/BerriAI/litellm)** | [![GitHub_Stars](https://img.shields.io/github/stars/BerriAI/litellm?style=social&color=white)](https://github.com/BerriAI/litellm/stargazers) | 🚦 **AI Proxy & Gateway** | High-throughput OpenAI-compatible proxy supporting 100+ LLMs with built-in guardrails (Llama Guard, Guardrails AI, Presidio PII, Lakera, Aporia, and custom webhook filters). |
 | **[Promptfoo](https://github.com/promptfoo/promptfoo)** | [![GitHub_Stars](https://img.shields.io/github/stars/promptfoo/promptfoo?style=social&color=white)](https://github.com/promptfoo/promptfoo/stargazers) | 🎯 **Red Teaming & Evaluation** | Fast CLI and testing framework for evaluating LLM outputs, automated dynamic red-teaming, prompt injection vulnerability scanning, and CI/CD security regression tests. |
