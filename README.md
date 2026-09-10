@@ -28,7 +28,7 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
-- [SaaS/Hosted Platforms](#saas-products)
+- [SaaS/Hosted Platforms](#saashosted-platforms)
 
 - [Open-Source GitHub Projects](#open-source-github-projects)
 
@@ -40,63 +40,18 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-- **[Lakera Guard](https://www.lakera.ai/)**  
+| Platform / Product | Description / Focus | Pricing (Starting Tier) | Free Tier Limits / Free Trial |
+| :--- | :--- | :--- | :--- |
+| **[Lakera Guard](https://www.lakera.ai/)** | Managed runtime API for real-time prompt-injection, jailbreak, and DLP detection with low latency (now part of Check Point portfolio). | **Community:** $0/mo<br>**Enterprise:** Starts at ~$50,000/year (custom contract via AWS Marketplace / Sales) | **Free Forever (Community Plan):** 10,000 API requests/month with full prompt injection, jailbreak, and DLP detection + dashboard reporting. |
+| **[Portkey AI Gateway](https://portkey.ai/)** | Production AI Gateway with guardrail policy enforcement, multi-LLM routing, fallbacks, load balancing, and observability. | **Developer:** $0/mo<br>**Production:** Starts at $49/month (includes 100,000 recorded logs)<br>**Enterprise:** Custom quotes | **Free Forever (Developer Plan):** 10,000 recorded logs/month (traffic continues unblocked beyond limit), 3-day log retention, 30-day metrics, 3 prompt templates. |
+| **[Pangea AI Guard](https://pangea.cloud/)** | API-first security services providing AI Guard for prompt injection defense, sensitive data redaction, and policy enforcement. | **Pay-As-You-Go:** Starts at $0.001 per request ($1.00 / 1,000 requests) or $0.0001 per scanned token<br>**Enterprise Credits:** Starts at $500 minimum commitment | **Free Forever Account:** $5/month complimentary usage credit (~5,000 requests/month) with standard API rate limits (100 req/day burst during development). |
+| **[Fiddler AI](https://www.fiddler.ai/)** | Model safety & monitoring platform offering real-time guardrails (<80ms latency for safety/PII/injection) and GenAI observability. | **Free Guardrails:** $0/mo<br>**Developer (Observability):** $0.002 per trace<br>**Enterprise:** Custom quote-based annual contracts | **Free Forever Plan:** Unlimited real-time guardrail filtering (prompt injection, jailbreak, PII/PHI, toxicity; excludes trace storage)<br>**14-day Free Trial** for full observability suite. |
+| **[Aporia](https://www.aporia.com/)** | Real-time LLM guardrails (hallucination mitigation, toxic content, data leakage) and ML observability (now part of Coralogix). | **Starter / Team:** Starts at ~$1,000/month (~$12,000/year)<br>**Enterprise:** Custom scale-based contracts | **14-day Free Trial:** Full platform access including real-time guardrails, monitoring, and up to 10,000 prediction/evaluation requests. |
+| **[Protect AI](https://protectai.com/)** | AI-SPM platform covering ML model security scanning (Guardian/Radar) and runtime AI risk; origin of open-source LLM Guard. | **Enterprise Platform:** Starts at ~$25,000/year (AWS Marketplace contract)<br>**LLM Guard Library:** Free & open-source (MIT) | **14-day Guided Proof-of-Concept / Trial:** Scoped to 5 models or 50,000 scanned requests<br>**Unlimited free self-hosted usage** via open-source LLM Guard library. |
+| **[Prompt Security](https://www.prompt.security/)** | Runtime GenAI firewall, shadow-AI discovery, DLP, and prompt injection defense (integrated into SentinelOne Singularity). | **Enterprise Contract:** Starts at ~$15,000/year (per-seat / workload licensing via SentinelOne) | **14-day to 30-day Proof-of-Concept Sandbox:** Evaluation access for up to 100 employee seats / 25,000 prompt inspections. |
+| **[HiddenLayer](https://hiddenlayer.com/)** | AISec platform providing ML/LLM model scanning, adversarial attack defense, and runtime firewalling. | **AISec Platform:** Starts at ~$20,000/year (AWS/Azure Marketplace unit-based contract licensing) | **30-day Enterprise Proof-of-Value (POV):** Full runtime & scanning evaluation for up to 2 production models upon sales qualification. |
+| **[CalypsoAI](https://calypsoai.com/)** | Enterprise AI security and governance (Moderator platform) for policy enforcement, DLP, and prompt firewalling (via F5). | **Enterprise Subscription:** Starts at ~$30,000/year (custom enterprise contract via F5) | **14-day Evaluation Sandbox:** Hands-on demo sandbox access with full policy configuration and up to 5,000 test prompt evaluations. |
 
-  Managed runtime API for real-time prompt-injection, jailbreak, and attack detection with low latency (now part of broader Check Point portfolio).
-
-
-
-- **[Protect AI](https://protectai.com/)**  
-
-  AI security platform covering model and supply-chain risk; also the origin of the open-source LLM Guard library.
-
-
-
-- **[Aporia](https://www.aporia.com/)**  
-
-  ML and LLM observability/security platform with monitoring and guardrail-style controls for production models.
-
-
-
-- **[Portkey AI Gateway](https://portkey.ai/)**  
-
-  AI gateway that includes routing, observability, and guardrail/policy features for LLM traffic.
-
-
-
-- **[Fiddler AI](https://www.fiddler.ai/)**  
-
-  Model performance and safety monitoring platform with LLM-focused detection capabilities.
-
-
-
-- **[Prompt Security](https://www.prompt.security/)**  
-
-  Runtime protection for GenAI usage, including shadow-AI discovery, DLP, and prompt-injection blocking (now aligned with broader security platforms).
-
-
-
-- **[HiddenLayer](https://hiddenlayer.com/)**  
-
-  AI security platform focused on model protection, adversarial detection, and runtime defense.
-
-
-
-- **[CalypsoAI](https://calypsoai.com/)**  
-
-  AI security and governance platform offering controls around LLM usage and risk.
-
-
-
-- **[Pangea AI Guard](https://pangea.cloud/)**  
-
-  Security services including AI/LLM guard capabilities for content and policy enforcement.
-
-
-
-- **[Other commercial LLM firewall & AI security offerings](https://github.com/)**  
-
-  Additional vendors providing managed prompt filtering, red-teaming, or runtime AI defense.
 
 
 
